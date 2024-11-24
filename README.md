@@ -1,8 +1,8 @@
-# Fabric Example Mod
+# Make Slime Glitch Great Again
 
-## Setup
+## Introduce
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+A simple mod that bring slime back to 1.21.2-.
 
 ## License
 
