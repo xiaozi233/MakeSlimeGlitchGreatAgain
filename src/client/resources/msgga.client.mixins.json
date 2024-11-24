@@ -1,11 +1,14 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "cn.xiaozi0721.msgga.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"LivingEntityMixin",
+		"SlimeBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
-	}
+	},
+	"mixins": [
+	]
 }
