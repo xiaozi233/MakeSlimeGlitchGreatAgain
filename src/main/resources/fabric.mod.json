@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "sera",
+	"id": "msgga",
 	"version": "${version}",
 	"name": "Make Slime Glitch Great Again",
 	"description": "Make slime back to 1.21.1-",
@@ -9,8 +9,8 @@
 	],
 	"contact": {
 	},
-	"license": "MIT",
-	"icon": "assets/modid/icon.png",
+	"license": "CC0-1.0s",
+	"icon": "assets/msgga/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
