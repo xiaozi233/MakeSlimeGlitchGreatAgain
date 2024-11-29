@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "msgga",
+	"version": "${version}",
+	"name": "Make Slime Glitch Great Again",
+	"description": "Make slime back to 1.21.1-",
+	"authors": [
+		"xiaozi0721"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0s",
+	"icon": "assets/msgga/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.xiaozi0721.msgga.MakeSlimeGlitchGreatAgain"
+		],
+		"client": [
+			"cn.xiaozi0721.msgga.MakeSlimeGlitchGreatAgainClient"
+		]
+	},
+	"mixins": [
+		"msgga.mixins.json",
+		{
+			"config": "msgga.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": ">=1.21.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
